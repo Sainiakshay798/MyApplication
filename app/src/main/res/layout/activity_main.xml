@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity" >
+
+    <Button
+        android:id="@+id/java"
+        android:layout_width="250dp"
+        android:layout_margin="15dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="75dp"
+        android:layout_height="wrap_content"
+        android:text="JAVA" />
+
+    <Button
+        android:id="@+id/python"
+        android:layout_width="250dp"
+        android:layout_margin="15dp"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content"
+        android:text="PYTHON" />
+
+    <Button
+        android:id="@+id/c"
+        android:layout_width="250dp"
+        android:layout_margin="15dp"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content"
+        android:text="C" />
+
+    <Button
+        android:id="@+id/pattern"
+        android:layout_margin="15dp"
+        android:layout_gravity="center"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:text="PATTERN" />
+</LinearLayout>
