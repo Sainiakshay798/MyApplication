@@ -14,7 +14,9 @@ public class java extends AppCompatActivity implements View.OnClickListener {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_java);
         Button button1 = findViewById(R.id.b2);
+        Button button2 = findViewById(R.id.b3);
         button1.setOnClickListener(this);
+        button2.setOnClickListener(this);
 
 
     }
@@ -27,9 +29,19 @@ public class java extends AppCompatActivity implements View.OnClickListener {
                 Toast.makeText(this,"JAVA", Toast.LENGTH_LONG).show();
                 Intent b = new Intent(java.this, Sum.class);
                 startActivity(b);
-                break;}
+                break;
+
+        case R.id.b3:
+        Toast.makeText(this,"JAVA", Toast.LENGTH_LONG).show();
+        Intent c = new Intent(java.this, Prime.class);
+        startActivity(c);
+        break;
 
 
+
+
+
+        }
 
 
         }
