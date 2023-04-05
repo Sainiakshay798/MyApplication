@@ -4,15 +4,13 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Prime">
+    tools:context=".Helloworld">
 
     <TextView
-        android:id="@+id/t1"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="Prime"
-        android:textSize="50dp"/>
-
-
-
+        android:id="@+id/t4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=" Helloworld"
+        tools:layout_editor_absoluteX="256dp"
+        tools:layout_editor_absoluteY="396dp" />
 </LinearLayout>
