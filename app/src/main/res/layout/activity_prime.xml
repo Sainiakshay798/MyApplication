@@ -4,15 +4,36 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Prime">
+    android:gravity="center"
+    tools:context=".Prime"
+    android:orientation="vertical">
 
+    <android.support.v7.widget.CardView
+        android:id="@+id/cardview2"
+        android:layout_width="340dp"
+        android:layout_height="650dp"
+        app:cardElevation="11dp"
+        app:cardCornerRadius="11dp"
+        app:cardBackgroundColor="#4D2B7C"
+        app:cardUseCompatPadding="true" >
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
     <TextView
         android:id="@+id/t1"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:text="Prime"
-        android:textSize="50dp"/>
+        android:text="@string/Primenumbercode"
+        android:layout_marginStart="2dp"
+        android:layout_marginTop="10dp"
+        tools:layout_editor_absoluteX="233dp"
+        android:textSize="20sp"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteY="294dp"/>
+</ScrollView>
 
-
+    </android.support.v7.widget.CardView>
 
 </LinearLayout>

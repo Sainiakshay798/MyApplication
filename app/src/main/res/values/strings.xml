@@ -12,4 +12,35 @@ System.out.println("The sum of numbers is: "+sum); \n
 } \n
 
     </string>
+
+    <string name="Primenumbercode">
+        public class PrimeExample{ \n
+        public static void main(String args[]){ \n
+        int i,m=0,flag=0; \n
+        int n=3;//it is the number to be checked \n
+        m=n/2; \n
+        if(n==0||n==1){ \n
+        System.out.println(n+" is not prime number"); \n
+        }else{ \n
+        for(i=2;i=m;i++){ \n
+        if(n%i==0){ \n
+        System.out.println(n+" is not prime number"); \n
+        flag=1; \n
+        break; \n
+        } \n
+        } \n
+        if(flag==0) \n
+        { \n
+        System.out.println(n+" is prime number"); \n
+        } \n
+        }//end of else \n
+        } \n
+        } \n
+
+
+
+
+
+    </string>
+
 </resources>
