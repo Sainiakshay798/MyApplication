@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "678307844261",
+    "firebase_url": "https://keen-jigsaw-340808-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "keen-jigsaw-340808",
+    "storage_bucket": "keen-jigsaw-340808.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:678307844261:android:a66a777e6277b857977d4c",
+        "android_client_info": {
+          "package_name": "com.example.myapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "678307844261-lk67qf02564bp4nglqmheptl7nmboc6r.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyACho4wHaCrg7_R7rEWJXDlonIdxPkP_5A"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "678307844261-lk67qf02564bp4nglqmheptl7nmboc6r.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
