@@ -2,12 +2,13 @@ package com.example.myapplication;
 
 
 import android.content.Intent;
-import android.support.v7.app.AppCompatActivity;
+import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.Toast;
 
+import com.google.firebase.firestore.FirebaseFirestore;
 
 
 public class java extends AppCompatActivity implements View.OnClickListener {
@@ -15,6 +16,9 @@ public class java extends AppCompatActivity implements View.OnClickListener {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+
+
+
         setContentView(R.layout.activity_java);
         Button button1 = findViewById(R.id.b2);
         Button button2 = findViewById(R.id.b3);

@@ -38,5 +38,17 @@ System.out.println("The sum of numbers is: "+sum); \n
         } \n
 
     </string>
+    <string name="helloworld">\n
+        class HelloWorld {\n
+    public static void main(String[] args) {\n
+        System.out.println("Hello, World!"); \n
+    }\n
+}\n
+
+
+
+    </string>
+
+
 
 </resources>

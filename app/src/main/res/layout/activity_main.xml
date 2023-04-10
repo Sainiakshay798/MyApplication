@@ -10,6 +10,12 @@
 
 
 
+    <TextView
+        android:id="@+id/t"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_margin="20dp"/>
+
     <Button
         android:id="@+id/java"
         android:layout_width="250dp"
@@ -42,5 +48,8 @@
             android:layout_gravity="center"
             android:layout_margin="15dp"
             android:text="PATTERN" />
+
+
+
 
 </LinearLayout>
